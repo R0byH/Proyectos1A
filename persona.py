@@ -22,7 +22,7 @@ class Persona:
         edad = hoy.year - int(fnac.year) - ((hoy.month, hoy.day) < (int(fnac.month), int(fnac.day)))
         print(edad)
 
-per = Persona("Ruben", "cito", 1234, "26/11/2020", "Siempre viva s/n", 1234567, "dudoso")
+per = Persona("Ruben", "_cito", 1234, "26/11/2020", "Siempre viva s/n", 1234567, "dudoso")
 per.calcular_edad()
 
     #     fecha_nacimiento = datetime.strptime(self.fechaNacimiento, "%d/%m/%Y")
